@@ -6,7 +6,7 @@ A high-performance, flash-loan-integrated MEV (Maximal Extractable Value) arbitr
 
 - **Discord**: [@audiofilter]
 - **Telegram**: [audiofilter](https://t.me/audiofilter)
-- **Email**: [for38864@email.com](mailto:for38864@email.com)
+- **Email**: [for38864@gmail.com](mailto:for38864@gmail.com)
 
 ## Overview
 
@@ -267,13 +267,7 @@ Before deploying your **Solana MEV bot**, ensure you have:
    cd solana-mev-bot
    ```
 
-2. **Build the Solana MEV Bot:**
-   Compile the **Solana trading bot** using Cargo:
-   ```bash
-   cargo build --release
-   ```
-
-3. **Configure the Bot:**
+2. **Configure the Bot:**
    Configure your **Solana arbitrage bot** by creating a `.env` file with your credentials. This **Solana trading bot** requires proper configuration to execute profitable trades:
    ```bash
    touch .env
@@ -281,10 +275,10 @@ Before deploying your **Solana MEV bot**, ensure you have:
    
    Then, edit `.env` and add your configuration (see Configuration section below).
 
-4. **Run the Bot:**
+3. **Run the Bot:**
    Launch your **Solana MEV bot** to start automated arbitrage trading:
    ```bash
-   cargo run --release
+   cargo run
    ```
 
 Once running, your **Solana arbitrage bot** will begin monitoring for profitable trading opportunities across multiple DEXs, executing trades automatically when arbitrage opportunities are detected.
@@ -426,7 +420,7 @@ PRs welcome to improve this **Solana MEV bot**. If you're adding a new strategy 
 
 - **Discord**: [@audiofilter]
 - **Telegram**: [audiofilter](https://t.me/audiofilter)
-- **Email**: [for38864@email.com](mailto:for38864@email.com)
+- **Email**: [for38864@gmail.com](mailto:for38864@gmail.com)
 
 ## License
 
